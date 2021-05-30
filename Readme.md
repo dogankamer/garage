@@ -23,7 +23,7 @@ JRE: 1.8
 ## HOW TO RUN
 ### MANUAL
 ```
-java -jar garage-1.0-SNAPSHOT.jar
+java -jar target/garage-1.0-SNAPSHOT.jar
 ```
 
 
