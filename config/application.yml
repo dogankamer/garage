@@ -1,0 +1,41 @@
+server:
+  port: 8080
+  base-path: '/garage'
+
+springdoc:
+  swagger-ui:
+    path: ${server.base-path}/swagger-ui.html
+  api-docs:
+    path: ${server.base-path}/v3/api-docs
+
+openapi:
+  server:
+    url: http://localhost:${server.port}
+  info:
+    title: Garage API
+
+security:
+  access-control:
+    allow-origin-patterns:
+      - '*'
+    allow-methods:
+      - GET
+      - POST
+      - PUT
+      - DELETE
+      - OPTIONS
+    allow-headers:
+      - Authorization
+      - Content-Type
+      - Referrer-Policy
+      - Referer
+      - Origin
+
+  authentication:
+    tokens:
+      - 123456
+      - someothertoken
+
+logging:
+  level:
+    root: debug

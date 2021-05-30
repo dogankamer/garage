@@ -1,0 +1,281 @@
+{
+	"info": {
+		"_postman_id": "0e19bf73-ed38-444b-8d4d-45945d0bfd7d",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "park 34-SO-1988 Black Car",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"plate\": \"34-SO-1988\",\r\n  \"colour\": \"Black\",\r\n  \"type\": \"Car\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/garage",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "park 34-BO-1987 Red Truck",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \r\n  \"plate\": \"34-BO-1987\",\r\n  \"colour\": \"Red\",\r\n  \"type\": \"Truck\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/garage",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "park 34-VO-2018 Blue Jeep",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"plate\": \"34-VO-2018\",\r\n  \"colour\": \"Blue\",\r\n  \"type\": \"Jeep\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/garage",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "park 34-HBO-2020 Black Truck",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"plate\": \"34-HBO-2020\",\r\n  \"colour\": \"Black\",\r\n  \"type\": \"Truck\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/garage",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "park 34-LO-2000 White Car",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"plate\": \"34-LO-2000\",\r\n  \"colour\": \"White\",\r\n  \"type\": \"Car\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/garage",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Leave 3",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/garage/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "status",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "123456",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/garage",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "Bearer 123456",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
