@@ -14,6 +14,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@ToString
 public class Vehicle {
     @Size(min = 1, max=4000)
     private String plate;
